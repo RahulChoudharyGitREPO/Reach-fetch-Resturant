@@ -1,0 +1,39 @@
+
+/* RestaurantCard.css */
+.restaurant-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: antiquewhite;
+  }
+  
+  .restaurant-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .restaurant-card-name {
+    font-weight: bold;
+  }
+  
+  .restaurant-card-type {
+    color: #666;
+  }
+  
+  .restaurant-card-rating {
+    margin-top: 5px;
+  }
+  
+  .restaurant-card-votes {
+    color: #666;
+  }
+  
+  .restaurant-card-price {
+    color: #666;
+  }
+  

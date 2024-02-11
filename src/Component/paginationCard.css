@@ -1,0 +1,26 @@
+/* Pagination.css */
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .page-container button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .page-container button.active {
+    border-color: red;
+  }
+  
+  .total-pages {
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  
